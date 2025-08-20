@@ -12,8 +12,8 @@ body {
     font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.7;
     font-weight: 400;
-    font-family: "Optima", sans-serif;
-    color: #222; 
+    font-family: "Helvetica", sans-serif;
+    color: #222;
 }
 
 @-webkit-keyframes fontfix {
@@ -77,13 +77,14 @@ div#pagetitle{
     margin-bottom: 3%; /*previously 4*/
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #headerimg {
     margin-left: 100px;
     border: 2px solid #FFFFFF;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 300px;
     margin-bottom: 10px;
     margin-right: 10px;
 }
